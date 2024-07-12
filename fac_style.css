@@ -1,0 +1,102 @@
+body{
+    font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  /* overflow-x: hidden; */
+}
+
+.head{
+    display: flex;
+    background-color: rgb(96,68,207);
+    height: 80px;
+    border-radius: 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+.navi{
+    display: flex;
+    width: 100%;
+}
+.ulul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .ulul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 ;
+    margin-left: 600px;
+  }
+  .ulul li{
+    background-color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    font-size: 190%;
+    padding-top: 10px;
+    padding-bottom: 12px; 
+    transition: 0.5s;
+  }
+  .ulul li:hover{
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 35px;
+    padding-right: 35px; 
+  }
+
+  .fact{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+  }
+  .fac{
+    display: flex;
+    background-color: rgb(214, 214, 214);
+  }
+  .facimg{
+    width: 300px;
+    margin-left: 5%;
+    margin-right: 3%;
+  }
+  .facd{
+    font-size: 30px;
+    font-weight: 200;
+    color: black;
+  }
+  .faccnt{
+    color: black;
+    margin-left: 2%;
+    font-size: 20px;
+  }
+  .aghome{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(96,68,207);
+    text-align:center;
+    display:block;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: 0.3s;
+  }
+  .aghome:hover{
+    background-color: rgb(112, 89, 202);
+  }
