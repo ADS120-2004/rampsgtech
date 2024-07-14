@@ -124,3 +124,131 @@ body{
     font-size: 50px;
     font-weight: 500;
   }
+
+  @media screen and (max-width: 600px){
+    .head{
+      display: flex;
+      background-color: rgb(255, 255, 255);
+      height: 80px;
+      border-radius: 20px;
+      align-items: center;
+      position: sticky;
+      top: 0;
+  }
+  .logo{
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      margin-left: 1%;
+  }
+  
+  .navie{
+      display: flex;
+      width: 100%;
+  }
+  .ulule a{
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+    .ulule {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 160%;
+      margin: 0 ;
+      margin-left: 6%;
+    }
+    .ulule li{
+      
+      background-color: rgba(117, 117, 117, 0.1);
+      padding-left:5px;
+      padding-right: 5px;
+      border-radius: 10px;
+      font-size: 190%;
+      padding-top: 1px;
+      padding-bottom: 7px; 
+      transition: 0.5s;
+    }
+    .ulule li:hover{
+      padding-top: 3px;
+      padding-bottom: 4px;
+      padding-left: 7px;
+      padding-right: 7px;
+      
+    }
+  
+
+    /* -------------------------- */
+
+
+    .navi{
+      display: flex;
+      width: 100%;
+  }
+  .ulul a{
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+    .ulul {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      width: 160%;
+      margin: 0 ;
+      margin-left: 6%;
+    }
+    .ulul li{
+      
+      background-color: rgba(117, 117, 117, 0.1);
+      padding-left:5px;
+      padding-right: 5px;
+      border-radius: 10px;
+      font-size: 190%;
+      padding-top: 1px;
+      padding-bottom: 7px; 
+      transition: 0.5s;
+    }
+    .ulul li:hover{
+      padding-top: 3px;
+      padding-bottom: 4px;
+      padding-left: 7px;
+      padding-right: 7px;
+      
+    }
+  
+
+
+    
+    .event{
+      color: black;
+      text-align: center;
+      font-size: 35px;
+      font-weight: 500;
+    }
+  
+  .aghome{
+    text-decoration: none;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(96,68,207);
+    text-align:center;
+    display:block;
+    margin-left: 40%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: 0.3s;
+  }
+  .aghome:hover{
+    background-color: rgb(112, 89, 202);
+  }
+  }
