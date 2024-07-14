@@ -89,7 +89,7 @@ body{
 }
 
 
-@media screen and (max-width: 500px){
+@media screen and (Width < 600px){
   .head{
     display: flex;
     background-color: rgb(255, 255, 255);

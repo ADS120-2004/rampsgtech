@@ -125,7 +125,7 @@ body{
     font-weight: 500;
   }
 
-  @media screen and (max-width: 600px){
+  @media screen and (Width < 600px){
     .head{
       display: flex;
       background-color: rgb(255, 255, 255);

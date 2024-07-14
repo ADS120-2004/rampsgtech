@@ -57,7 +57,7 @@
     padding: 0.1rem 0.5rem;
   }
   
-  @media screen and (max-width: 600px)
+  @media screen and (Width < 600px)
   {
     .dropdown {
       postion: relative;
