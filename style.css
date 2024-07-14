@@ -852,21 +852,21 @@ margin-bottom: 2%;
   border-radius: 20px;
 }
 .secimg{
-  width: 300px;
+  width: 200px;
   margin: 0 auto;
   margin-top: 8%;
   border-radius: 40px;
   
 }
 .sect{
-  font-size: 50px;
+  font-size: 30px;
   margin: 0 auto;
   margin-top: 2%;
   margin-bottom: 1%;
 }
 .secname{
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 200;
   margin-bottom: 2%;
 }
@@ -880,7 +880,7 @@ margin-bottom: 2%;
 .oa{
   display: flex;
   flex-direction: column;
-  margin-left: 5%;
+  margin-left: 3%;
   font-weight: 300;
 }
 
@@ -888,8 +888,11 @@ margin-bottom: 2%;
   color: black;
   display: flex;
   justify-content: center;
-  font-size: 45px;
+  font-size: 35px;
+  margin: 0;
+  margin-bottom: 20px;
   margin-top: 100px;
+
 }
 .oadiv{
   display: flex;
@@ -904,26 +907,27 @@ margin-bottom: 2%;
 .oap1{
   border: solid 1px;
   border-color: black;
-  width: 65%;
-  height: 25%;
+  width: 85%;
+  height: 15%;
   display: flex;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.4s;
   margin-bottom: 4%;
+  margin-bottom: 30px;
 }
 .oap1h{
   background-color: rgb(96,68,207);
-  width: 200px;
+  width: 80px;
   border-radius: 20px;
 }
 .heart{
-  width: 70px;
+  width: 30px;
   margin: 0 auto;
   margin-left: 30%;
 }
 .oaos{
-  font-size: 40px;
+  font-size: 15px;
   text-align: center;
   margin: 0 auto;
   align-content: center;
@@ -932,7 +936,7 @@ margin-bottom: 2%;
 .oap1:hover{
   border: solid 1px;
   border-color: black;
-  width: 68%;
+  width: 90%;
   display: flex;
   border-radius: 20px;
   cursor: pointer;
@@ -947,7 +951,7 @@ margin-bottom: 2%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .oavp{
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   margin-top: 5%;
 }
@@ -985,14 +989,14 @@ margin-bottom: 2%;
   border-radius: 20px;
 }
 .facimg{
-  width: 300px;
+  width: 200px;
   margin: 0 auto;
   margin-top: 10%;
   border-radius: 40px;
   
 }
 .fact{
-  font-size: 50px;
+  font-size: 30px;
   margin: 0 auto;
   margin-top: 2%;
   margin-bottom: 1%;
@@ -1000,7 +1004,7 @@ margin-bottom: 2%;
 }
 .facname{
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
   margin-bottom: 2%;
   color: black;
@@ -1008,8 +1012,8 @@ margin-bottom: 2%;
 
 
 .footer{
-  height: 50vh;
-  width: 98vw;
+  height: 50%;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 10%;
@@ -1017,8 +1021,10 @@ margin-bottom: 2%;
   justify-content: space-around;
 }
 .footimg{
-  width: 120px;
+  width: 60px;
   cursor: pointer;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 }
 
